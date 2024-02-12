@@ -60,7 +60,7 @@ RUN sed -i "s/#ClientAliveCountMax 3/ClientAliveCountMax 10/" /etc/ssh/sshd_conf
 ####################
 # 安装Python3.12
 ####################
-RUN apt install -y openssl libssl-dev libffi-dev zlib1g-dev tk-dev libsqlite3-dev libbz2-dev ncurses-dev liblzma-dev uuid-dev libreadline-dev libgdbm-dev
+RUN apt-get install -y openssl libssl-dev libffi-dev zlib1g-dev tk-dev libsqlite3-dev libbz2-dev ncurses-dev liblzma-dev uuid-dev libreadline-dev libgdbm-dev
 
 ###########################
 ## 安装依赖：OpenSSL-1.1.1n
