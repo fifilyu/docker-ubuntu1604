@@ -95,7 +95,7 @@ RUN ./pip312 install --root-user-action=ignore -U yq toml-cli
 COPY file/usr/local/bin/jq /usr/local/bin/jq
 RUN chmod 755 /usr/local/bin/jq
 
-RUN apt install -y xmlstarlet crudini
+RUN apt-get install -y xmlstarlet crudini
 
 ####################
 # BASH设置
