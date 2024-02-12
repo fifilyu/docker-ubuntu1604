@@ -118,4 +118,4 @@ ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 
 WORKDIR /root
 
-EXPOSE 80
+EXPOSE 22
